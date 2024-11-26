@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(./images/pixelartbg_test4.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    background-color: rgb(0, 170, 255);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.title-div {
+    background-color: #2ad764;
+    /* border-radius: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+.title-div h1 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.poke-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 160px;
+}
+
+.pokemon .img-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.pokemon .img-container img {
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.pokemon .info {
+    margin-top: 20px;
+}
+
+.pokemon .stats-button {
+    background-color: rgb(255, 39, 39);
+    border-radius: 5px;
+    max-width: 100%;
+    border: none;
+    padding: 5px 25px;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+.pokemon .stats-button:hover {
+    background-color: rgb(225, 40, 40);
+}
+
+.pokemon .info .number {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.pokemon .info .name {
+    padding: 15px 0 7px;
+    letter-spacing: 1px;
+}
+
+#search {
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+}
+
+#random-btn {
+    background-color: aquamarine;
+    width: 25%;
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+}
+
